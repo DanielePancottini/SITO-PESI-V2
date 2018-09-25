@@ -1,0 +1,32 @@
+div.footer{
+	height: 9%;
+	width: 100%;
+	background: #c5e7ed;
+	border-top: 1px solid #555;
+}
+
+div.media{
+	position: absolute;
+	left: 50%;
+	transform: translate(-53%, -50%);
+}
+
+div.media ul{
+	
+}
+
+div.media li{
+	list-style: none;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: inline-block;
+	font-size: 30px;
+	color: red;
+	transition: .5s;
+}
+
+div.media li:hover{
+	color: #fff;
+	border: 1px solid #fff;
+	transition: .5s;
+}
