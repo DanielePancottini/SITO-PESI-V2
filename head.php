@@ -12,7 +12,7 @@
 		
 		<div class="head">
 			
-			<img class="logoHead" src=".\images\logo.png" alt="not found" height="100px" width="100px" />
+			<img class="logoHead" src=".\images\logo.png" alt="not found" height="70px" width="70px" />
 			
 			<div class="menu">
 				<ul>
