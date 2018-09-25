@@ -22,11 +22,6 @@ div.head{
 	z-index: 2;
 }
 
-img.logoHead{
-	
-	padding-left: 200;
-}
-
 div.menu{
 	float: right;
 	list-style: none;

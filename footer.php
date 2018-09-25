@@ -6,7 +6,7 @@
 <div class="footer">
 			<div class="footer-left">
 
-				<h3>Company<span>logo</span></h3>
+				<img src=".\images\logo.png" alt="not found" height="125px" width="125px" />
 
 				<p class="footer-company-name">WeightInTheWorld &copy; 2015</p>
 			</div>
@@ -34,7 +34,7 @@
 
 				<p class="footer-company-about">
 					<span>Resta Aggiornato</span>
-					Seguici anche sui nostri Social per rimanere sempre aggiornato
+					<h4>Seguici anche sui nostri Social per rimanere sempre aggiornato</h4>
 				</p>
 
 				<div class="footer-icons">
