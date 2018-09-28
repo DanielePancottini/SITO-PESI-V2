@@ -1,0 +1,39 @@
+
+div.content{
+	height: 75.2%;
+}
+
+div.content .row .col{
+	float: left;
+    width: 33.33%;
+	text-align: center;
+	color: white;
+}
+
+div.content .row{
+	padding-top: 15%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+div.content .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.endPage{
+	height: 5%;
+	padding-top: 10%;	
+}
+
+div.endPage button{
+	position: absolute;
+	left: 46.3%;
+	
+}
+
+div.endPage img{
+	position: absolute;
+	left: 10%;
+}

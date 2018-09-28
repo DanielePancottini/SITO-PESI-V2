@@ -1,0 +1,55 @@
+
+div.container{
+	height: 75.2%;
+	background-image: url("https://www.bell-coaching.com/wp-content/uploads/2017/02/deadlift.jpg");
+
+    width: 100%; 
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+	text-align: center;
+}
+
+div.contact-title p{
+	text-align: center;
+	padding-top: 10%;
+	color: #fff;
+}
+
+form{
+	margin-top: 5%;
+	transition: all 4s ease-in-out;
+}
+
+.form-control{
+	width: 40%;
+	background: transparent;
+	border: none;
+	outline: nonr;
+	border-bottom: 1px solid red;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 10%;
+}
+
+form .submit{
+	background: red;
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: hold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form.submit:hover{
+	background-color: #f44336;
+	cursor: pointer;
+}
