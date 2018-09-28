@@ -14,7 +14,6 @@
 		
 			<div class="row">
 				<div class="col">
-					
 					<input type="button" id="btnCart1" value="ADD TO CART" onclick="f_query('Prodotto 1', '1500', 'btnCart1')" />
 				</div>
 				
@@ -25,10 +24,7 @@
 				<div class="col">
 					<input type="button" id="btnCart3" value="ADD TO CART" onclick="f_query('Prodotto 3', '3500', 'btnCart3')" />
 				</div>
-				
 			</div>
-			
-			
 			
 			<div class="endPage">
 				<img class="imgCart" src=".\images\cart.png" alt="not found" height="50px" width="50px"/>
@@ -49,7 +45,6 @@
 						a_prezzo[coda_array] = prezzoProdotto;
 					
 						coda_array++;
-					
 				}
 				
 				function f_stampa(){
