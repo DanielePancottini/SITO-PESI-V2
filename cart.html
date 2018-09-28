@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<body>
+		<script type="text/javascript">
+			var a_prodotti = new Array();
+			var a_qta = new Array();
+			var a_prezzo = new Array();
+		</script>
+	
+		<form name="formCart" id="cart" method="post" onsubmit="f_query();return false">
+			<select id="qta_prod" name="e">
+				<option value="0" name="qta">0</option>
+				<option value="1" name="qta">1</option>
+				<option value="2" name="qta">2</option>
+			</select>
+			<input type="submit" id="BtnCart" value="ADD TO CART"/>
+		</form>
+		<p id="deRoch"></p>
+
+		<script type="text/javascript">
+			function f_query(){
+			
+				if (document.getElementById("qta_prod").selectedIndex > 0 ){
+					
+					document.getElementById("BtnCart").value = "Disabled";
+					document.getElementById("BtnCart").disabled = true;
+					document.getElementById("qta_prod").disabled = true;
+					
+					a_qta[0] = document.getElementById("qta_prod").value;
+					
+					document.getElementById("deRoch").innerHTML = a_qta[0];
+				}
+			//	
+				return false;
+			}
+		</script>
+		
+	</body>
+</html>
+
